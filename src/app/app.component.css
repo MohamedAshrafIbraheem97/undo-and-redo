@@ -1,0 +1,82 @@
+form {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  form div {
+    margin-bottom: 20px;
+  }
+  
+  /* Label Styling */
+  h3, label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333;
+  }
+  
+  /* Input, Select, and Checkbox Styling */
+  input[type="text"],
+  input[type="email"],
+  select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .checkbox-container {
+    display: flex;
+    align-items: baseline;
+  }
+  input[type="checkbox"] {
+    margin-right: 10px;    
+  }
+  
+  /* Input hover and focus effect */
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  select:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  input[type="checkbox"]:hover {
+    cursor: pointer;
+  }
+  
+  /* Buttons Styling */
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  /* buttons disabled state */
+  button:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+  }
+  
+  /* button hover when not disabled */
+  button:hover:not(:disabled) {
+    background-color: #0056b3;
+  }
+  
+  /* Add spacing between buttons */
+  button:last-child {
+    margin-right: 0;
+  }
+  
