@@ -40,3 +40,6 @@ https://undo-and-redo.vercel.app/
 2. click the undo button then the name field will be delete the added name char by char.
 3. this will enable the redo button so when you click redo this will add again the deleted button by the undo action.
 4. try to add email, check the checkbox or select from the drop down this and try the undo and redo.
+
+### side note
+I focused on implementing the functionality and didn't add a more reusable folder structure or any components as my main focus was to implement the functionality 
